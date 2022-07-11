@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%), url(images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-banner{
+    padding: 10% 6%;
+
+}
+
+.top-banner h1{
+    font-size: 55px;
+    color: white;
+}
+
+.top-banner p{
+    font-size: 18px;
+    line-height: 28px;
+    color: aliceblue;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.primary-btn{
+    
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.donate-now{
+    margin-top: 100px;
+}
+
+.donate-one{
+    display: flex;
+}
+
+.donate-section{
+    width: 50%;
+    margin: 3%;
+    padding: 3%;
+}
+
+.donate-section img{
+    width: 80%;
+}
+
+.donate-section div{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.donate-section div p{
+    margin-top: 20px;
+}
+
+.img1{
+    margin-left: 12%;
+}
+
+.donate-two{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.donate-two-head{
+    margin-bottom: 20px;
+}
+
+.donate-two-head p{
+    padding: 10px;
+}
+
+article{
+    display: flex;
+    
+}
+
+.article-1{
+    display: flex;
+    text-align: left;
+    background-color: rgb(236, 201, 219);
+    margin: 2%;
+    padding: 6%;
+}
+
+.gallery{
+    margin-top: 70px;
+    display: flex;
+}
+
+.gallery img{
+    width: 30%;
+    margin: 2%;
+}
+
+.item{
+    width: 35%;
+    margin: 2%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.donate-three{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.donate-three-head p{
+    padding: 10px;
+}
+
+.item-box{
+    margin-top: 50px;
+    display: flex;
+}
+
+.item p{
+    padding: 10%;
+    text-align: left;
+}
+
+.item a{
+    display: block;
+    text-decoration: underline;
+    color: red;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1A1A1A;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+footer h3{
+    font-family: 'Lobster', cursive;
+    color: #EF233C;
+    letter-spacing: 0.5px;
+    font-size: 36px;
+}
+
+footer p{
+    color: white;
+    padding: 5px 0;
+}
